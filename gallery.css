@@ -1,0 +1,43 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    font-size:65px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 2px;
+}
+.gallery .image{
+    padding: 3px;
+    width: calc(80% / 4);
+}
+.gallery .image img{
+    width: 95%;
+    padding: 2px;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+.gallery .image span{
+    display: flex;
+    width: 103%;
+    overflow: hidden;
+}
+.gallery .image:hover img{
+    transform: scale(1.2);
+}
+@media(max-width: 1000px){
+    .gallery .image{
+        width: calc(80% / 2);
+    }
+}
+@media(max-width: 800px){
+    .gallery .image{
+        width: calc(80% / 1);
+    }
+} */
